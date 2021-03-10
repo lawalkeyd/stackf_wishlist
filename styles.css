@@ -1,0 +1,189 @@
+.container
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+body
+{
+    font-size: 18px;
+    scroll-behavior: smooth;
+    color: var(--black-text);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header_txt
+{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.love_img
+{
+    padding: 20px;
+    background-color: #E9FDF9;
+    border-radius: 8px;
+}
+
+.wishlist_text
+{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 0.002em;    
+}
+
+.no_wish_sub
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    color: #676767;    
+}
+
+.create_new
+{
+    background: #F6F6F6;
+    border-radius: 4px;
+    color: #06415D;
+    padding: 20px;  
+    text-decoration: none;
+}
+
+
+.title
+{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.header{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.wish_btn
+{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;  
+    color: #06415D;
+    padding: 20px;
+    background-color: #f6f6f6; 
+    text-decoration: none; 
+}
+
+.desc_col
+{
+    width: 310px;
+    height: 257px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F6F6F6;
+    border-radius: 8px;    
+}
+
+.all_wish_col
+{
+    padding-top: 20px;
+}
+
+.descr_title
+{
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;    
+}
+
+.descr_price
+{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;
+    color: #000000; 
+    margin-bottom: 0px;   
+}
+
+.ngn
+{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.descr_donation
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #027637;    
+}
+
+.descr_div
+{
+    margin-top: 30px;
+}
+
+.inner_div
+{
+    background: #EFEFEF;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 50px;
+    margin-top: 4rem;
+    
+    color: #676767;            
+}
+
+
+
+
+/*--mobile--*/
+@media (max-width: 978px) { 
+.descr_div
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.descr_title
+{
+    margin-bottom: 10px;
+}
+
+.col {
+    justify-content: center;
+    display: inline-grid;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: grid;
+    justify-content: center;
+}
+
+.title
+{
+    margin-bottom: 30px !important;
+}
+
+}
