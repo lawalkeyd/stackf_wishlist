@@ -65,7 +65,7 @@ body
 .title
 {
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 37px;
 }
 
@@ -83,6 +83,18 @@ body
     padding: 20px;
     background-color: #f6f6f6; 
     text-decoration: none; 
+}
+
+.wish_btn a :hover
+{
+    color: #06415D !important;
+    background-color: #b2b2b2;
+}
+
+.create_new a :hover
+{
+    color: #06415D !important;
+    background-color: #b2b2b2;
 }
 
 .desc_col
