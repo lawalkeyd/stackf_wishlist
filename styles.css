@@ -63,6 +63,8 @@ body
     font-weight: 700;
     text-decoration: none;
     transition: all 0.3s;
+    width: 253px;
+    height: 65px;
 }
 
 .create_new img {
@@ -80,7 +82,7 @@ body
 .title
 {
     font-weight: 500;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 37px;
 }
 
@@ -98,7 +100,17 @@ body
     padding: 20px;
     background-color: #f6f6f6; 
     text-decoration: none; 
+    transition: all 0.3s;
+    width: 253px;
+    height: 65px;    
 }
+
+.wish_btn:hover,
+.wish_btn:active {
+    color: #06415D !important;
+    background-color: #eee;
+}
+
 
 .wish_btn a :hover
 {
@@ -126,13 +138,14 @@ body
 {
     font-size: 20px;
     line-height: 30px;
-    color: #000000;    
+    color: #000000; 
+    margin-bottom: 0.5rem;   
 }
 
 .descr_price
 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 37px;
     color: #000000; 
     margin-bottom: 0px;   
@@ -200,11 +213,6 @@ body
     margin-bottom: 80px;
     display: grid;
     justify-content: center;
-}
-
-.title
-{
-    margin-bottom: 30px !important;
 }
 
 }
